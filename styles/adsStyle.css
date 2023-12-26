@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: sans-serif;
+    background-color: lightgray;
+}
+
+.block {
+    width: 50%;
+    background-color: white;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 4px gray;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+input {
+    width: 350px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+input[type=button] {
+    background-color: blue;
+    color: white;
+    border-color: blue;
+    cursor: pointer;
+}

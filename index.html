@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Cars</title>
+</head>
+
+<body>
+    <div class="block">
+
+        <select class="selectAll" name="cars" id="cars">
+            <option selected disabled value="">Mashina nomi bo'yicha saralash</option>
+            <option value="Hammasi">Hammasi</option>
+            <option value="Damas">Damas</option>
+            <option value="Tico">Tico</option>
+            <option value="Matiz">Matiz</option>
+            <option value="Spark">Spark</option>
+            <option value="Nexia">Nexia</option>
+        </select>
+
+        <select class="selectAll" name="year" id="year">
+            
+                <option selected disabled value="">Ishlab chiqarilgan yili bo'yicha saralash</option>
+                <option value="Hammasi">Hammasi</option>
+                <option value="1990">2000-yildan avvalgilari</option>
+                <option value="2000">2000-2010-yillar oralig'idagi</option>
+                <option value="2010">2010-2020-yillar oralig'idagi</option>
+                <option value="2020">2020-yildan keyingilari</option>
+            
+        </select>
+
+        <select class="selectAll" name="color" id="color">
+         
+                <option selected disabled value="">Rangi bo'yicha saralash</option>
+                <option value="Hammasi">Hammasi</option>
+                <option value="Oq">Oq</option>
+                <option value="Qora">Qora</option>
+                <option value="Kulrang">Kulrang</option>
+                <option value="Ko'k">Ko'k</option>
+       
+        </select>
+
+        <select class="selectAll" name="price" id="price">
+          
+                <option selected disabled value="">Narxi bo'yicha saralash</option>
+                <option value="Hammasi">Hammasi</option>
+                <option value="2000">2000$ dan kamroq</option>
+                <option value="4000">2000$-4000$ oralig'ida</option>
+                <option value="6000">4000$-6000$ oralig'ida</option>
+                <option value="8000">6000$-8000$ oralig'ida</option>
+                <option value="1000">8000$-10000$ oralig'ida</option>
+                <option value="12000">10000$-12000$ oralig'ida</option>
+                <option value="14000">12000$ dan yuqori</option>
+            
+        </select>
+
+        <select class="selectAll" name="status" id="status">
+          
+                <option selected disabled value="">Holati bo'yicha saralash</option>
+                <option value="Hammasi">Hammasi</option>
+                <option value="Sotilmagan">Sotilmagan</option>
+                <option value="Sotilgan">Sotilgan</option>
+          
+        </select>
+
+        <input id="btn" type="button" value="E'lon berish">
+
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nomi</th>
+                    <th>Yili</th>
+                    <th>Rangi</th>
+                    <th>Narxi</th>
+                    <th>Holati</th>
+                    <th>Amallar</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+            </tbody>
+        </table>
+    </div>
+
+    <script src="./js/index.js" type="module"></script>
+</body>
+
+</html>
